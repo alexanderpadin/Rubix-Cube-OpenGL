@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0C68B71900E81100F751E0 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0C68B51900E81100F751E0 /* Cube.cpp */; };
+		EB3B71E518FD0940003E0523 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3B71E418FD0940003E0523 /* main.cpp */; };
+		EB3B71E718FD0940003E0523 /* Grafica.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB3B71E618FD0940003E0523 /* Grafica.1 */; };
+		EB3B71EE18FD094C003E0523 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3B71ED18FD094C003E0523 /* Cocoa.framework */; };
+		EB3B71F018FD0953003E0523 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3B71EF18FD0953003E0523 /* GLUT.framework */; };
+		EB3B71F218FD0991003E0523 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3B71F118FD0991003E0523 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB3B71DF18FD0940003E0523 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EB3B71E718FD0940003E0523 /* Grafica.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB0C68B51900E81100F751E0 /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
+		EB0C68B61900E81100F751E0 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		EB3B71E118FD0940003E0523 /* Grafica */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Grafica; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3B71E418FD0940003E0523 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EB3B71E618FD0940003E0523 /* Grafica.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Grafica.1; sourceTree = "<group>"; };
+		EB3B71ED18FD094C003E0523 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EB3B71EF18FD0953003E0523 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		EB3B71F118FD0991003E0523 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB3B71DE18FD0940003E0523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3B71F218FD0991003E0523 /* OpenGL.framework in Frameworks */,
+				EB3B71F018FD0953003E0523 /* GLUT.framework in Frameworks */,
+				EB3B71EE18FD094C003E0523 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB3B71D818FD0940003E0523 = {
+			isa = PBXGroup;
+			children = (
+				EB3B71F118FD0991003E0523 /* OpenGL.framework */,
+				EB3B71EF18FD0953003E0523 /* GLUT.framework */,
+				EB3B71ED18FD094C003E0523 /* Cocoa.framework */,
+				EB3B71E318FD0940003E0523 /* Grafica */,
+				EB3B71E218FD0940003E0523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB3B71E218FD0940003E0523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB3B71E118FD0940003E0523 /* Grafica */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB3B71E318FD0940003E0523 /* Grafica */ = {
+			isa = PBXGroup;
+			children = (
+				EB3B71E418FD0940003E0523 /* main.cpp */,
+				EB0C68B51900E81100F751E0 /* Cube.cpp */,
+				EB0C68B61900E81100F751E0 /* Cube.h */,
+				EB3B71E618FD0940003E0523 /* Grafica.1 */,
+			);
+			path = Grafica;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB3B71E018FD0940003E0523 /* Grafica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3B71EA18FD0940003E0523 /* Build configuration list for PBXNativeTarget "Grafica" */;
+			buildPhases = (
+				EB3B71DD18FD0940003E0523 /* Sources */,
+				EB3B71DE18FD0940003E0523 /* Frameworks */,
+				EB3B71DF18FD0940003E0523 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grafica;
+			productName = Grafica;
+			productReference = EB3B71E118FD0940003E0523 /* Grafica */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB3B71D918FD0940003E0523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alexander Padin";
+			};
+			buildConfigurationList = EB3B71DC18FD0940003E0523 /* Build configuration list for PBXProject "Grafica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB3B71D818FD0940003E0523;
+			productRefGroup = EB3B71E218FD0940003E0523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB3B71E018FD0940003E0523 /* Grafica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB3B71DD18FD0940003E0523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3B71E518FD0940003E0523 /* main.cpp in Sources */,
+				EB0C68B71900E81100F751E0 /* Cube.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB3B71E818FD0940003E0523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB3B71E918FD0940003E0523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB3B71EB18FD0940003E0523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB3B71EC18FD0940003E0523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB3B71DC18FD0940003E0523 /* Build configuration list for PBXProject "Grafica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3B71E818FD0940003E0523 /* Debug */,
+				EB3B71E918FD0940003E0523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3B71EA18FD0940003E0523 /* Build configuration list for PBXNativeTarget "Grafica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3B71EB18FD0940003E0523 /* Debug */,
+				EB3B71EC18FD0940003E0523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB3B71D918FD0940003E0523 /* Project object */;
+}
